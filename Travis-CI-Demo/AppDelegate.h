@@ -13,9 +13,5 @@
 @property (strong, nonatomic) UIWindow *window;
 
 
-// Test travis ci
-
-//testing me ci
-
 @end
 
