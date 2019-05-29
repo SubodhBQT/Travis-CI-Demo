@@ -9,4 +9,3 @@ xcode_workspace: Travis-CI-Demo.xcworkspace
 xcode_scheme: Adhoc-Beta
 before_install:
 - cd Travis-CI-Demo
-- pod install
