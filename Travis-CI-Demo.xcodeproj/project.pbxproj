@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		110EC0A02375313DADDF8116 /* libPods-Travis-CI-DemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB28789D1F88E8826067689B /* libPods-Travis-CI-DemoUITests.a */; };
+		46C569F412E86A32E071D1AB /* libPods-Travis-CI-DemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E40C11C5CBD90C7211C1D11C /* libPods-Travis-CI-DemoTests.a */; };
+		5333A317F476475A1E61FB04 /* libPods-Travis-CI-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 877BB7EDFCA89F8CA49B2AF5 /* libPods-Travis-CI-Demo.a */; };
 		7B074774229A881F00EC2300 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B074773229A881F00EC2300 /* AppDelegate.m */; };
 		7B074777229A881F00EC2300 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B074776229A881F00EC2300 /* ViewController.m */; };
 		7B07477A229A881F00EC2300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B074778229A881F00EC2300 /* Main.storyboard */; };
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25FD15C50A55207BC43BAD97 /* Pods-Travis-CI-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travis-CI-Demo.debug.xcconfig"; path = "Target Support Files/Pods-Travis-CI-Demo/Pods-Travis-CI-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		4A852FF403BABEEC000668F7 /* Pods-Travis-CI-Demo.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travis-CI-Demo.adhoc.xcconfig"; path = "Target Support Files/Pods-Travis-CI-Demo/Pods-Travis-CI-Demo.adhoc.xcconfig"; sourceTree = "<group>"; };
 		7B07476F229A881F00EC2300 /* Travis-CI-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travis-CI-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B074772229A881F00EC2300 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B074773229A881F00EC2300 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +56,16 @@
 		7B074792229A882000EC2300 /* Travis-CI-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Travis-CI-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B074796229A882000EC2300 /* Travis_CI_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Travis_CI_DemoUITests.m; sourceTree = "<group>"; };
 		7B074798229A882000EC2300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D72C83E20138C1C88BAC828 /* Pods-Travis-CI-DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travis-CI-DemoUITests.release.xcconfig"; path = "Target Support Files/Pods-Travis-CI-DemoUITests/Pods-Travis-CI-DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		877BB7EDFCA89F8CA49B2AF5 /* libPods-Travis-CI-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Travis-CI-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E3B7DBF9221BF9A8960A71 /* Pods-Travis-CI-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travis-CI-DemoTests.release.xcconfig"; path = "Target Support Files/Pods-Travis-CI-DemoTests/Pods-Travis-CI-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		93329D77FB4C6933BE18BC54 /* Pods-Travis-CI-DemoUITests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travis-CI-DemoUITests.adhoc.xcconfig"; path = "Target Support Files/Pods-Travis-CI-DemoUITests/Pods-Travis-CI-DemoUITests.adhoc.xcconfig"; sourceTree = "<group>"; };
+		BA8FE7DD5DB4A03DEAEE56F3 /* Pods-Travis-CI-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travis-CI-Demo.release.xcconfig"; path = "Target Support Files/Pods-Travis-CI-Demo/Pods-Travis-CI-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		BB28789D1F88E8826067689B /* libPods-Travis-CI-DemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Travis-CI-DemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D926BEDEA686CAF2C2176777 /* Pods-Travis-CI-DemoTests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travis-CI-DemoTests.adhoc.xcconfig"; path = "Target Support Files/Pods-Travis-CI-DemoTests/Pods-Travis-CI-DemoTests.adhoc.xcconfig"; sourceTree = "<group>"; };
+		E347D2D2129227F5690FAE70 /* Pods-Travis-CI-DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travis-CI-DemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Travis-CI-DemoUITests/Pods-Travis-CI-DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E40C11C5CBD90C7211C1D11C /* libPods-Travis-CI-DemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Travis-CI-DemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58AE0B2E87387FD17914BBD /* Pods-Travis-CI-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travis-CI-DemoTests.debug.xcconfig"; path = "Target Support Files/Pods-Travis-CI-DemoTests/Pods-Travis-CI-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5333A317F476475A1E61FB04 /* libPods-Travis-CI-Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46C569F412E86A32E071D1AB /* libPods-Travis-CI-DemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +89,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				110EC0A02375313DADDF8116 /* libPods-Travis-CI-DemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		367C29CC45CBBC77C8F44063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				877BB7EDFCA89F8CA49B2AF5 /* libPods-Travis-CI-Demo.a */,
+				E40C11C5CBD90C7211C1D11C /* libPods-Travis-CI-DemoTests.a */,
+				BB28789D1F88E8826067689B /* libPods-Travis-CI-DemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79F64204320F6A6508D1130D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25FD15C50A55207BC43BAD97 /* Pods-Travis-CI-Demo.debug.xcconfig */,
+				BA8FE7DD5DB4A03DEAEE56F3 /* Pods-Travis-CI-Demo.release.xcconfig */,
+				4A852FF403BABEEC000668F7 /* Pods-Travis-CI-Demo.adhoc.xcconfig */,
+				F58AE0B2E87387FD17914BBD /* Pods-Travis-CI-DemoTests.debug.xcconfig */,
+				90E3B7DBF9221BF9A8960A71 /* Pods-Travis-CI-DemoTests.release.xcconfig */,
+				D926BEDEA686CAF2C2176777 /* Pods-Travis-CI-DemoTests.adhoc.xcconfig */,
+				E347D2D2129227F5690FAE70 /* Pods-Travis-CI-DemoUITests.debug.xcconfig */,
+				7D72C83E20138C1C88BAC828 /* Pods-Travis-CI-DemoUITests.release.xcconfig */,
+				93329D77FB4C6933BE18BC54 /* Pods-Travis-CI-DemoUITests.adhoc.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7B074766229A881F00EC2300 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +130,8 @@
 				7B07478A229A882000EC2300 /* Travis-CI-DemoTests */,
 				7B074795229A882000EC2300 /* Travis-CI-DemoUITests */,
 				7B074770229A881F00EC2300 /* Products */,
+				79F64204320F6A6508D1130D /* Pods */,
+				367C29CC45CBBC77C8F44063 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B07479B229A882000EC2300 /* Build configuration list for PBXNativeTarget "Travis-CI-Demo" */;
 			buildPhases = (
+				74480A466984128B4312C021 /* [CP] Check Pods Manifest.lock */,
 				7B07476B229A881F00EC2300 /* Sources */,
 				7B07476C229A881F00EC2300 /* Frameworks */,
 				7B07476D229A881F00EC2300 /* Resources */,
@@ -156,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B07479E229A882000EC2300 /* Build configuration list for PBXNativeTarget "Travis-CI-DemoTests" */;
 			buildPhases = (
+				DC18D4F09C6D9A8CB4E8338C /* [CP] Check Pods Manifest.lock */,
 				7B074783229A882000EC2300 /* Sources */,
 				7B074784229A882000EC2300 /* Frameworks */,
 				7B074785229A882000EC2300 /* Resources */,
@@ -174,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B0747A1229A882000EC2300 /* Build configuration list for PBXNativeTarget "Travis-CI-DemoUITests" */;
 			buildPhases = (
+				7B0F342C47DEBE405F872E83 /* [CP] Check Pods Manifest.lock */,
 				7B07478E229A882000EC2300 /* Sources */,
 				7B07478F229A882000EC2300 /* Frameworks */,
 				7B074790229A882000EC2300 /* Resources */,
@@ -256,6 +306,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74480A466984128B4312C021 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Travis-CI-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B0F342C47DEBE405F872E83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Travis-CI-DemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC18D4F09C6D9A8CB4E8338C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Travis-CI-DemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B07476B229A881F00EC2300 /* Sources */ = {
@@ -433,6 +552,7 @@
 		};
 		7B07479C229A882000EC2300 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25FD15C50A55207BC43BAD97 /* Pods-Travis-CI-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -451,6 +571,7 @@
 		};
 		7B07479D229A882000EC2300 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA8FE7DD5DB4A03DEAEE56F3 /* Pods-Travis-CI-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -469,6 +590,7 @@
 		};
 		7B07479F229A882000EC2300 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F58AE0B2E87387FD17914BBD /* Pods-Travis-CI-DemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -487,6 +609,7 @@
 		};
 		7B0747A0229A882000EC2300 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E3B7DBF9221BF9A8960A71 /* Pods-Travis-CI-DemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +628,7 @@
 		};
 		7B0747A2229A882000EC2300 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E347D2D2129227F5690FAE70 /* Pods-Travis-CI-DemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Travis-CI-DemoUITests/Info.plist";
@@ -522,6 +646,7 @@
 		};
 		7B0747A3229A882000EC2300 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D72C83E20138C1C88BAC828 /* Pods-Travis-CI-DemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Travis-CI-DemoUITests/Info.plist";
@@ -592,6 +717,7 @@
 		};
 		7BEAD659229EACDC00388A49 /* Adhoc */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A852FF403BABEEC000668F7 /* Pods-Travis-CI-Demo.adhoc.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -610,6 +736,7 @@
 		};
 		7BEAD65A229EACDC00388A49 /* Adhoc */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D926BEDEA686CAF2C2176777 /* Pods-Travis-CI-DemoTests.adhoc.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -628,6 +755,7 @@
 		};
 		7BEAD65B229EACDC00388A49 /* Adhoc */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93329D77FB4C6933BE18BC54 /* Pods-Travis-CI-DemoUITests.adhoc.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Travis-CI-DemoUITests/Info.plist";
