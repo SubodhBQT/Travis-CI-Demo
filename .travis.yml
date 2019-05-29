@@ -1,6 +1,6 @@
 language: objective-c
 osx_image: xcode10.1
 xcode_workspace: Travis-CI-Demo.xcworkspace
-xcode_scheme: Adhoc-Beta
+xcode_scheme: Adhoc
 before_install:
-- cd Travis-CI-Demo /
+- cd Travis-CI-Demo
