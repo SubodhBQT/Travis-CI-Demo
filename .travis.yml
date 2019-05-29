@@ -1,4 +1,12 @@
 language: objective-c
-xcode_project: /Users/amitraj/Documents/Travis-CI-Demo # path to your xcodeproj folder
+xcode_workspace: /Users/amitraj/Documents/Travis-CI-Demo # path to your xcodeproj folder
 xcode_scheme: Debug
 xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
+
+language: objective-c
+osx_image: xcode10.1
+xcode_workspace: Travis-CI-Demo.xcworkspace
+xcode_scheme: Adhoc-Beta
+before_install:
+- cd Travis-CI-Demo
+- pod install
