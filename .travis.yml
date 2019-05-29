@@ -1,6 +1,6 @@
 language: objective-c
 osx_image: xcode10.1
-xcode_workspace:  /Users/amitraj/Documents/Travis-CI-Demo/Travis-CI-Demo.xcworkspace
+xcode_workspace:  Travis-CI-Demo.xcworkspace
 xcode_scheme: Adhoc
 #before_install:
  # - cd Travis-CI-Demo
@@ -8,3 +8,5 @@ xcode_scheme: Adhoc
  #branches:
  #  only:
  #    - master
+
+#xcode_workspace:  /Users/amitraj/Documents/Travis-CI-Demo/Travis-CI-Demo.xcworkspace
