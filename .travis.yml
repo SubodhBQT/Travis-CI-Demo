@@ -3,5 +3,8 @@ osx_image: xcode10.1
 xcode_workspace:  /Users/amitraj/Documents/Travis-CI-Demo/Travis-CI-Demo.xcworkspace
 xcode_scheme: Adhoc
 before_install:
-- cd Travis-CI-Demo
-- pod install
+ # - cd Travis-CI-Demo
+  - pod install
+ branches:
+   only:
+     - master
